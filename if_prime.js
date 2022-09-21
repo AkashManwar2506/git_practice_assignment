@@ -1,5 +1,5 @@
 var n;
-function IdentifyPrime(n){
+function if_prime(n){
     var count=0;
     for(var i=2;i<n;i++){
         if(n%i==0){
@@ -14,4 +14,4 @@ function IdentifyPrime(n){
     }
 }
 
-IdentifyPrime(6);
+if_prime(6);
